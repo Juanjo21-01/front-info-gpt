@@ -7,14 +7,14 @@ const Header = () => {
     <div className="header section__padding" id="home">
       <div className="header-content">
         <h1 className="gradient__text">
-          GPT-4 is OpenAI’s most advanced system
+          GPT-4 es el sistema más avanzado de OpenAI
         </h1>
 
         <p>
-          GPT-4 is more creative and collaborative than ever before. It can
-          generate, edit, and iterate with users on creative and technical
-          writing tasks, such as composing songs, writing screenplays, or
-          learning a user’s writing style.
+          GPT-4 es más creativo y colaborativo que nunca. Puede generar, editar
+          e iterar con los usuarios en tareas de escritura creativa y técnica,
+          como componer canciones, escribir guiones o aprender el estilo de
+          escritura de un usuario.
         </p>
 
         <div className="header-content-input">
@@ -29,7 +29,10 @@ const Header = () => {
 
         <div className="header-content-people">
           <img src={people} alt="people" />
-          <p>We spent 6 months making GPT-4 safer and more aligned</p>
+          <p>
+            Pasamos 6 meses haciendo que GPT-4 sea más seguro y esté más
+            alineado
+          </p>
         </div>
       </div>
       <div className="header-image">
