@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
 
-    padding: 2rem 6rem;
+    padding: 1rem 6rem;
 }
 
 .navbar-links {
@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 550px) {
     .navbar {
-        padding: 2rem;
+        padding: 0 1rem;
     }
 
     .navbar-sign {

@@ -20,14 +20,14 @@ a {
 }
 
 .gradient__text {
-    background-color: var(--gradient-text);
+    background-image: var(--gradient-text);
     background-clip: text;
-    -webkit-background-clop: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .section__padding {
-    padding: 4rem 6rem;
+    padding: 3rem 4rem;
 }
 
 .section__margin {
@@ -65,7 +65,7 @@ a {
 
 @media screen and (max-width: 700px) {
     .section__padding {
-        padding: 4rem;
+        padding: 2rem 4rem;
     }
 
     .section__margin {
@@ -75,7 +75,7 @@ a {
 
 @media screen and (max-width: 550px) {
     .section__padding {
-        padding: 4rem 2rem;
+        padding: 1.5rem;
     }
 
     .section__margin {

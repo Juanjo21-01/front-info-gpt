@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="app">
       {/* Cabecera */}
+      
       <div className="gradient__bg">
         <Navbar />
         <Header />
