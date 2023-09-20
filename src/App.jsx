@@ -7,13 +7,13 @@ import {
   WhatGPT,
 } from './containers';
 import { Brand, CTA, Navbar } from './components';
-import './App.css'
+import './App.css';
 
 function App() {
   return (
     <div className="app">
       {/* Cabecera */}
-      
+
       <div className="gradient__bg">
         <Navbar />
         <Header />
@@ -24,9 +24,8 @@ function App() {
 
       {/* Informacion */}
       <WhatGPT />
-      <h1>Informacion GPT</h1>
-
       <Features />
+      
       <Possibility />
 
       {/* Otros */}

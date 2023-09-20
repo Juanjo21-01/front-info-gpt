@@ -4,7 +4,7 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div className="header section__padding" id="home">
+    <div className="header section__padding" id="inicio">
       <div className="header-content">
         <h1 className="gradient__text">
           GPT-4 es el sistema más avanzado de OpenAI
