@@ -25,7 +25,7 @@ function App() {
       {/* Informacion */}
       <WhatGPT />
       <Features />
-      
+
       <Possibility />
 
       {/* Otros */}

@@ -1,0 +1,144 @@
+.footer {
+    color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-footer);
+}
+
+.footer-heading {
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.footer-heading h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.footer-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.footer-btn button {
+    border: 1px solid #fff;
+    background: var(--color-footer);
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #fff;
+    word-spacing: 2px;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+}
+
+.footer-links div {
+    width: 250px;
+    margin: 1rem;
+}
+
+.footer-links-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links-logo img {
+    margin-bottom: 1rem;
+}
+
+.footer-links-logo p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-links-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-links-div h4 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+
+    margin-bottom: 1rem;
+}
+
+.footer-links-div p {
+    font-family: var(--font-family);
+    font-size: 15px;
+    line-height: 18px;
+    color: #fff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.footer-copyright {
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-copyright p {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.footer-copyright a {
+    color: var(--color-subtext);
+}
+
+@media screen and (max-width: 850px) {
+    .footer-heading h1 {
+        font-size: 44px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footer-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .footer-links div {
+        margin: 1rem 0;
+    }
+
+    .footer-btn button {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .footer-btn {
+        margin-bottom: 2rem;
+    }
+}

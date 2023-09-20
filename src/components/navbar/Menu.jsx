@@ -5,7 +5,7 @@ const Menu = () => {
       <a href="#que-es">¿Qué es GPT?</a>
       <a href="#possibility">Open IA</a>
       <a href="#features">Casos de Estudio</a>
-      <a href="#blog">Biblioteca</a>
+      <a href="#blog">Blog</a>
     </>
   );
 };
