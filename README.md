@@ -4,7 +4,7 @@ Página web que contiene información sobre GPT-4. Está desarrollado con React 
 
 ## Acceder a la página 🔎
 
-La página está alojada en Netlify y puedes acceder a ella en el siguiente enlace: [Información GPT-4]()
+La página está alojada en Netlify y puedes acceder a ella en el siguiente enlace: [Información GPT-4](https://jazzy-beijinho-02befd.netlify.app/)
 
 ## Desarrollado con 🛠️
 
