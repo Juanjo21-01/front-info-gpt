@@ -1,8 +1,23 @@
-# React + Vite
+# 🤖 Página con información de GPT-4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Página web que contiene información sobre GPT-4. Está desarrollado con React y utiliza npm como gestor de paquetes. El proyecto también utiliza CSS puro para el estilizado.
 
-Currently, two official plugins are available:
+## Acceder a la página 🔎
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La página está alojada en Netlify y puedes acceder a ella en el siguiente enlace: [Información GPT-4]()
+
+## Desarrollado con 🛠️
+
+- [Vite](https://vitejs.dev/) - Entorno de desarrollo
+- [React](https://es.reactjs.org/) - Librería de JavaScript
+- [CSS](https://developer.mozilla.org/es/docs/Web/CSS) - Lenguaje de estilos
+
+## 🙏 Créditos
+
+Este proyecto fue desarrollado por Juan José Hernández López
+
+- Basado en el curso de JavaScript Mastery. [Click para ver el canal de YouTube](https://www.youtube.com/@javascriptmastery)
+
+## 📝 Licencia
+
+Este proyecto está bajo la licencia [License.txt](LICENSE.txt)
